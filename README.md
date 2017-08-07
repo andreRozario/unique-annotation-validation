@@ -2,7 +2,7 @@
 
 Unique annotation validation for Java
 
-##Single attribute example:##
+##Single attribute example:
 ```java
 imports...
 
@@ -32,7 +32,7 @@ public class Foo implements Serializable {
 	equals and hashcode...
 }
 ```
-##Multiples attributes example:##
+##Multiples attributes example:
 ```java
 imports...
 
