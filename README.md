@@ -4,7 +4,7 @@ Unique annotation validation for Java
 <b>Single attribute example:</b>
 
 imports...
-
+```java
 import package.validators.Unique;
 
 @Entity
@@ -30,11 +30,11 @@ public class Foo implements Serializable {
 
 	equals and hashcode...
 }
-
+```
 <b>Multiples attributes example:</b>
 
 imports...
-
+```java
 import package.validators.Unique;
 
 @Entity
@@ -63,3 +63,4 @@ public class Foo implements Serializable {
 
 	equals and hashcode...
 }
+```
