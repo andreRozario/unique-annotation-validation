@@ -10,7 +10,7 @@ import package.validators.Unique;
 
 @Entity
 @Table(name = "foo", uniqueConstraints = {
-	@UniqueConstraint(columnNames = "bar"),
+    @UniqueConstraint(columnNames = "bar"),
 })
 @Unique.List({
     @Unique(attributes = {"bar"}, node = "bar", message = "{Unique.foo.bar}"),
@@ -40,7 +40,7 @@ import package.validators.Unique;
 
 @Entity
 @Table(name = "foo", uniqueConstraints = {
-	@UniqueConstraint(columnNames = "bar", "foo_bar"),
+    @UniqueConstraint(columnNames = "bar", "foo_bar"),
 })
 @Unique.List({
     @Unique(attributes = {"bar", "foo_bar"}, node = "bar", message = "{Unique.foo.bar}"),
