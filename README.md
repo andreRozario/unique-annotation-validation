@@ -1,10 +1,11 @@
 # unique-annotation-validation
+
 Unique annotation validation for Java
 
-<b>Single attribute example:</b>
-
-imports...
+##Single attribute example:##
 ```java
+imports...
+
 import package.validators.Unique;
 
 @Entity
@@ -31,10 +32,10 @@ public class Foo implements Serializable {
 	equals and hashcode...
 }
 ```
-<b>Multiples attributes example:</b>
-
-imports...
+##Multiples attributes example:##
 ```java
+imports...
+
 import package.validators.Unique;
 
 @Entity
