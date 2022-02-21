@@ -1,4 +1,4 @@
-package br.gov.caraguatatuba.ocorrencias.validators;
+package com.money.api.validator;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -15,13 +15,17 @@ import javax.validation.Payload;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Unique {
 
-	String message() default "{Unique}";
+	String message() default "{org.hibernate.validator.constraints.custom.Unique}";
     
 	Class<?>[] groups() default {};
     
     Class<? extends Payload>[] payload() default {};
     
     String[] attributes() default {};
+    
+    String[] associations() default {};
+    
+    String[] associationsKeys() default {};
     
     String node() default "";
     
